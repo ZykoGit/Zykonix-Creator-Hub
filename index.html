@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home • Zykonix Creator Hub</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+
+  <div class="page">
+
+    <header class="top">
+      <h1 id="welcome">Welcome</h1>
+      <button id="logoutBtn" class="logout-btn">Log Out</button>
+    </header>
+
+    <section class="card">
+      <h2>Connect Your Accounts</h2>
+      <p class="desc">Link your socials to start posting and tracking analytics.</p>
+
+      <button id="connectYoutube" class="connect-btn youtube">
+        Connect YouTube
+      </button>
+
+      <!-- Future buttons -->
+      <button class="connect-btn disabled">Connect TikTok (soon)</button>
+      <button class="connect-btn disabled">Connect Instagram (soon)</button>
+    </section>
+
+    <section class="card" id="analyticsCard" style="display:none;">
+      <h2>Your Latest Video</h2>
+      <div id="videoInfo">Loading...</div>
+    </section>
+
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>
