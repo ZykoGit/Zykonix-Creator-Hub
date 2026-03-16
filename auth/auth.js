@@ -24,7 +24,7 @@ if (loginForm) {
       return;
     }
 
-    window.location.href = "home.html";
+    window.location.href = "/";
   });
 }
 
@@ -54,6 +54,6 @@ if (signupForm) {
       username
     });
 
-    window.location.href = "home.html";
+    window.location.href = "/";
   });
 }
