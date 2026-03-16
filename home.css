@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #0f0f15;
+  color: #fff;
+  padding: 20px;
+}
+
+.page {
+  max-width: 480px;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+.logout-btn {
+  background: #ef4444;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.card {
+  background: #181820;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.desc {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.connect-btn {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.youtube {
+  background: #ff0000;
+}
+
+.disabled {
+  background: #333;
+  opacity: 0.5;
+}
