@@ -1,7 +1,7 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js";
 
 const supabase = createClient(
-  "YOUR_SUPABASE_URL",
+  "https://edyaswzqtwzczqjwnrtj.supabase.co",
   "YOUR_SUPABASE_ANON_KEY"
 );
 
@@ -29,5 +29,5 @@ document.getElementById("logoutBtn").addEventListener("click", async () => {
 // Connect YouTube
 document.getElementById("connectYoutube").addEventListener("click", () => {
   // This will redirect to your OAuth start function
-  window.location.href = "https://YOUR-PROJECT.supabase.co/functions/v1/youtube-start";
+  window.location.href = "https://edyaswzqtwzczqjwnrtj.supabase.co/functions/v1/youtube-start";
 });
